@@ -27,11 +27,9 @@ function carritoCompras() {
 
   let opcion = -1;
   while (opcion !== 0) {
-    alert('Carrito de Compras');
+    alert('Carrito de Compras - AldyAyarzabalTattoo');
     mostrarProductos();
-    alert('Seleccione una opción: 1. Para agregar producto al carrito.--  2. Para ver carrito actual.--  3. Para Calcular total de la compra.--  0. Para salir');
-
-    opcion = parseInt(prompt('Ingrese el número de opción deseada:'));
+    opcion = parseInt(prompt('Seleccione una opción: \n 1. Para agregar producto al carrito.  \n 2. Para ver carrito actual. \n 3. Para calcular total de la compra. \n 0. Para salir'));
 
     switch (opcion) {
       case 1:
